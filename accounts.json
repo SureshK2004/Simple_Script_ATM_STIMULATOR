@@ -1,0 +1,41 @@
+{
+    "1234567890": {
+        "account_number": "1234567890",
+        "pin": "1234",
+        "balance": 2800.0,
+        "transaction_history": [
+            {
+                "type": "LOGIN",
+                "amount": 0,
+                "timestamp": "2025-09-23 17:29:05"
+            },
+            {
+                "type": "WITHDRAWAL",
+                "amount": 200.0,
+                "timestamp": "2025-09-23 17:29:17"
+            },
+            {
+                "type": "BALANCE_CHECK",
+                "amount": 0,
+                "timestamp": "2025-09-23 17:29:23"
+            },
+            {
+                "type": "DEPOSIT",
+                "amount": 2000.0,
+                "timestamp": "2025-09-23 17:29:39"
+            }
+        ]
+    },
+    "0987654321": {
+        "account_number": "0987654321",
+        "pin": "5678",
+        "balance": 500.0,
+        "transaction_history": []
+    },
+    "5555555555": {
+        "account_number": "5555555555",
+        "pin": "0000",
+        "balance": 2500.0,
+        "transaction_history": []
+    }
+}
